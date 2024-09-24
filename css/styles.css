@@ -1,0 +1,163 @@
+/*************************/
+/******* header **********/
+/*************************/
+header{
+    height: 100svh;
+}
+.hero{
+    height: calc(100svh - 61px);
+    background-image: url(../imgs/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*************************/
+/*****section.flight*****/
+/***********************/
+.flight input{
+    height: 20px;
+    width: 20px;
+}
+.flight .border{
+    border: 1.4px solid black !important;
+}
+.flight .container{
+    background-color: #fcf9f9;
+    border-radius: 30px;
+}
+/*************************/
+/*****section.routes*****/
+/***********************/
+.routes{
+    background: url(../imgs/Air\ Plane.png) no-repeat;
+    background-position: right;
+}
+/*************************/
+/*****section.global*****/
+/***********************/
+.Global .card{
+    width: 310px;
+    height: auto;
+    border-radius: 20px;
+    border: 1.4px solid black;
+}
+.Global .card .line{
+    margin-left: -17px;
+    width: 140px;
+    border: 1.3px solid #ea5046;
+}
+/*************************/
+/*****section.sajair*****/
+/***********************/
+.sajair{
+    height: 100svh;
+    background: url(../imgs/Why\ Choose\ SajAir\ Background.png) no-repeat;
+    background-size: contain;
+}
+.sajair .box{
+    padding: 0px 12px 0px 12px;
+    width: 260px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    position: relative;
+}
+.sajair .box .icon{
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+    background-color: #1f2347;
+}
+/*************************/
+/***section.bussinesss***/
+/******media query*******/
+@media (max-width: 989px) {
+    .bussiness{
+        padding-top: 20% !important;
+    }
+}
+@media (max-width: 767px) {
+    .bussiness{
+        padding-top: 80% !important;
+    }
+}
+/*************************/
+/***section.connection***/
+/***********************/
+.connection{
+    height: 100svh;
+    background: url(../imgs/Daily\ routes\ background.png)center no-repeat;
+    background-size: cover;
+}
+/*************************/
+/*****section.style*****/
+/***********************/
+.style .card{
+    width: 340px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid red;
+    position: relative;
+}
+.style .card .icon{
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.style .card .title{
+    position: absolute;
+    top: 220px;
+    left: 10px;
+}
+.style .card .food{
+    position: absolute;
+    top: 210px;
+    right: 10px;
+}
+/*************************/
+/*****section.journey****/
+/***********************/
+.journey{
+    height: 100svh;
+    background: url(../imgs/Book\ your\ journy\ background.png)no-repeat;
+    background-size: cover;
+}
+/*************************/
+/*****section.review*****/
+/***********************/
+.review .box{
+    width: 330px;
+    height: auto;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 20px;
+}
+/*************************/
+/*****section.email******/
+/***********************/
+.email{
+    margin-top: -70px;
+}
+.email .container{
+    margin-top: 70px;
+}
+.email .login input{
+    width: 320px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+/*************************/
+/*****section.line*******/
+/***********************/
+.footer .line{
+    width: 100%;
+    border: 1px solid black;
+}
